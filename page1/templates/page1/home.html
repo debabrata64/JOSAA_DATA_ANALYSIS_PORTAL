@@ -1,83 +1,81 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JoSAA</title>
-    <link rel="stylesheet" href="{% static 'page1/main.css' %}" />
-  </head>
-  <body style="background-color: wheat">
-    <header>
-      <h1>
-        <span> HoMe PaGe oF JoSAa PoRTaL </span>
-        <button id="latestnews">LATEST NEWS</button>
-        <button id="news">NEWS</button>
-      </h1>
-      <div>
-        <img src="JOSAA.webp" alt="RandomImage" height="550" width="510" />
-      </div>
-    </header>
-
-    <hr />
-    <h4>
-      For more information, visit
-      <a href="https://josaa.nic.in/">JoSAA.</a>
-    </h4>
-    <hr/>
-    <br><br>
-    
-    <div class="padding-example" >
-    
-        <div class="rectangle" style="width : 100%;"> Analyse more popular branches 
-            <p class="info"> which branches are getting more popular </p>
-            <div class="b_h"> <a href="Branch.html">Get Started --> </a> </div>
-            <hr/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOSSA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="iit.html">IIT</a></li>
+            <li class="nav-item"><a href="project.html">Project</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="more.html">More</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="image-container">
+        <img src="jossa.jpg" alt="Left Image" class="left-image">
+        <img src="centre.png" alt="Center Image" class="center-image">
+        <img src="club.jpg" alt="Right Image" class="right-image">
+    </div>
+    <div class="container">
+        <div class="topic">
+            <a href="page1.html">
+                <img src="jossa.jpg" alt="Topic 1 Image" class="circle-image">
+                <h2>Popular Branches</h2>
+            </a>
+        </div>
+        <div class="topic">
+            <a href="page2.html">
+                <img src="jee.jpg" alt="Topic 2 Image" class="circle-image">
+                <h2>Closing Rank</h2>
+            </a>
+        </div>
+        <div class="topic">
+            <a href="page3.html">
+                <img src="club.jpg" alt="Topic 3 Image" class="circle-image">
+                <h2>Opening Rank</h2>
+            </a>
         </div>
     </div>
-
-    <div class="padding-example-2">
-    		
-        <div class="rectangle"> Analyse trends based on years
-            
-            <p class="info">What is the flow of students among the IITs over the years</p>
-                <div class="b_h"> <a href="YearWise.html">Get Started --></a> </div>
-                <hr/>
+    <div class="container">
+        <div class="topic">
+            <a href="page4.html">
+                <img src="th.jpeg" alt="Topic 4 Image" class="circle-image">
+                <h2>Campus</h2>
+            </a>
         </div>
-        <div class="rectangle"> Analyse trends based on Round
-            <p class="info">Analyze trends based on round-wise cutoffs for years</p>
-                <div class="b_h"> <a href="Roundwise.html">Get Started --></a> </div>
-                <hr/>
+        <div class="topic">
+            <a href="page5.html">
+                <img src="ab.jpeg" alt="Topic 5 Image" class="circle-image">
+                <h2>Placement</h2>
+            </a>
         </div>
-    
+        <div class="topic">
+            <a href="page6.html">
+                <img src="iitg.jpg" alt="Topic 6 Image" class="circle-image">
+                <h2>IIT & NIT</h2>
+            </a>
+        </div>
     </div>
-      
-
-    <hr />
-    <section>
-      <h3>Made with &hearts; by</h3>
-      <ol>
-        <li>
-          <a href="https://www.linkedin.com/in/debabrata-samanta-321359288/"
-            >Debabrata Samanta</a
-          >
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/prathamdoiphode/"
-            >Pratham Doiphode</a
-          >
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/priyanshu-kumar-8525aa273/"
-            >Priyanshu Kumar</a
-          >
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/sourish-maity-a7106127a/"
-            >Sourish Maity</a
-          >
-        </li>
-      </ol>
-    </section>
-  </body>
+    <div class="social-container">
+        <div class="social-buttons">
+            <a href="page1.html" class="social-button facebook"></a>
+            <a href="page2.html" class="social-button facebook"></a>
+            <a href="page3.html" class="social-button facebook"></a>
+            <a href="page4.html" class="social-button facebook"></a>
+        </div>
+        <div class="nav-items">
+            <a href="page1.html" class="nav-item">Topic 1</a>
+            <a href="page2.html" class="nav-item">Topic 2</a>
+            <a href="page3.html" class="nav-item">Topic 3</a>
+            <a href="page4.html" class="nav-item">Topic 4</a>
+            <a href="page5.html" class="nav-item">Topic 5</a>
+        </div>
+    </div>
+</body>
 </html>
