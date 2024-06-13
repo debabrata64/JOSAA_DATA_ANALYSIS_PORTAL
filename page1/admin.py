@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import josaaTable
 
-# Register your models here.
+class ServiceAdmin(admin.ModelAdmin):
+    list_display = ('Programme','Year')
+
+admin.site.register(josaaTable,ServiceAdmin)

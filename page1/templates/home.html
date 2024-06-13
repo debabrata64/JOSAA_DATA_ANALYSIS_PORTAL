@@ -1,0 +1,71 @@
+{% load static %}
+{% include "header.html" %}   
+
+<body>
+    <div id="home-body">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <div class="image-container">
+        <img src="{% static 'img/josaa.jpg' %}" alt="Left Image" class="left-image">
+        <div class="container">
+            <h1>JoSAa  DaTA  AnaLySiS  PoRTaL </h1>
+        </div>
+        <img src="{% static 'img/club.jpg' %}" alt="Right Image" class="right-image">
+    </div>
+    <div class="container">
+        <div class="topic">
+            <a href="roundwise">
+                <img src="{% static 'img/round.png' %}" alt="Topic 1 Image" class="circle-image">
+                <h2>Round Wise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                
+                
+            </a>
+        </div>
+        <div class="topic">
+            <a href="bestcourse">
+                <img src="{% static 'img/BestCo.png' %}" alt="Topic 2 Image" class="circle-image">
+                <h2>Best Course</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                
+            </a>
+        </div>
+        <div class="topic">
+            <a href="yearwise">
+                <img src="{% static 'img/year1.png' %}" alt="Topic 3 Image" class="circle-image">
+                <h2>Year Wise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="topic">
+            <a href="iitvsnit">
+                <img src="{% static 'img/iitNit.png' %}" alt="Topic 4 Image" class="circle-image">
+                <h2>IIT VS NIT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                
+            </a>
+        </div>
+        <div class="topic">
+            <a href="popularcollege">
+                <img src="{% static 'img/college.png' %}" alt="Topic 5 Image" class="circle-image">
+                <h2>Popular College</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+               
+            </a>
+        </div>
+        <div class="topic">
+            <a href="rank">
+                <img src="{% static 'img/rank.png' %}" alt="Topic 6 Image" class="circle-image">
+                <h2>Rank</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisc</p>
+                
+            </a>
+        </div>
+    </div>
+  </div>
+</body>
+
+{% include "footer.html" %}
+
