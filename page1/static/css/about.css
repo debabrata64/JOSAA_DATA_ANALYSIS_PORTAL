@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-
 main {
     padding: 2rem 1rem;
     max-width: 900px;
@@ -39,7 +38,30 @@ ul li a.contributor {
     font-weight: bold;
 }
 
-
 ul li a.contributor:hover {
     text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f6f7f9;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section {
+    width: 70%;
+    padding: 0;
+}
+
+.footer-section.thank-you {
+    background-color: #004d99;
+}
+
+.footer-section:not(.thank-you) {
+    background-color: #004d99;
+    margin-top: 0.5rem;
 }
