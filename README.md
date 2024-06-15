@@ -24,11 +24,11 @@ the key objectives and technologies used in this project.</p>
         <h2>Insights and Analysis</h2>
         <p>The portal offers several sections for in-depth data analysis:</p>
         <ul>
-            <li><strong>• Frontend:</strong> HTML, CSS, JavaScript</li>
-            <li><strong>• Backend:</strong>  Django, SQLite</li>
-            <li><strong>•data Scrapping :</strong>Selenium</li>
-            <li><strong>• Data Cleaning:</strong>NumPy, Pandas </li>
-            <li><strong>• Visualisation:</strong>Chart.js </li>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Backend:</strong>  Django, SQLite</li>
+            <li><strong>data Scrapping :</strong>Selenium</li>
+            <li><strong>Data Cleaning:</strong>NumPy, Pandas </li>
+            <li><strong>Visualisation:</strong>Chart.js </li>
            </ul>
 </section>
    
@@ -96,6 +96,13 @@ features to add, please open an issue or submit a pull request.</p>
    <section>
    <h2>Acknowledgements</h2>
         <p>This project utilises several open-source libraries and frameworks:</p>
+          <ul>
+            <li><strong>Django</strong> </li>
+            <li><strong>Selenium</strong>  </li>
+            <li><strong>Pandas</strong></li>
+            <li><strong>NumPy</strong> </li>
+            <li><strong> Chart.js</strong></li>
+           </ul>
         <p>We extend our heartfelt thanks to the developers of these tools for their invaluable contributions 
 to the open-source community.
 This project was made possible thanks to the support and allocation of this summer project by 
@@ -105,10 +112,10 @@ the Coding Club, IIT Guwahati.</p>
 <section>
          <h2>Contributors:</h2>
          <ul>
-            <li>• Debabrata Samanta, MSc Mathematics</li>
-            <li>• Pratham Doiphode, MSc Mathematics and Computing</li>
-            <li>• Priyanshu Kumar, MSc Mathematics</li>
-            <li>• Sourish Maity, MSc Mathematics and Computing</li> 
+            <li> Debabrata Samanta, MSc Mathematics</li>
+            <li> Pratham Doiphode, MSc Mathematics and Computing</li>
+            <li> Priyanshu Kumar, MSc Mathematics</li>
+            <li> Sourish Maity, MSc Mathematics and Computing</li> 
         </ul>
     </section>
     
