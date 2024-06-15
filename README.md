@@ -19,9 +19,9 @@ the key objectives and technologies used in this project.</p>
             <li>3. Develop a website to present the analysis using various charts and tables.</li>
             
         </ul>
-    </section>
+</section>
    
-      <section>
+<section>
         <h2>Insights and Analysis</h2>
         <p>The portal offers several sections for in-depth data analysis:</p>
         <ul>
@@ -32,7 +32,7 @@ the key objectives and technologies used in this project.</p>
             <li><strong>• Visualisation:</strong>Chart.js </li>
            
         </ul>
-    </section>
+</section>
    
    <section>
          <h2>Usage</h2>
@@ -52,7 +52,7 @@ python manage.py runserver</li>
         </ul>
     </section>
    
-      <section>
+ <section>
          <h2>Data Extraction and Cleaning</h2>
          <ul>
             <li>The JOSAA seat allotment data has been provided and is ready for analysis. The data cleaning 
@@ -61,7 +61,7 @@ required for analysis.</li>
            
             
         </ul>
-    </section>
+</section>
    
         <section>
         <h2>Data Insights and Analysis</h2>
@@ -74,7 +74,7 @@ required for analysis.</li>
             <li><strong>Best College:</strong> Identify the best colleges based on their popularity for a particular course.</li>
             <li><strong>Category-wise Analysis:</strong> Analyse the category-wise differences between opening and closing ranks.</li>
         </ul>
-    </section>
+</section>
    
    <section>
    <h2>Final Output</h2>
@@ -104,7 +104,7 @@ This project was made possible thanks to the support and allocation of this summ
 the Coding Club, IIT Guwahati.</p>
     </section>
   
-    <section>
+<section>
          <h2>Contributors:</h2>
          <ul>
             <li>• Debabrata Samanta, MSc Mathematics</li>
