@@ -17,8 +17,7 @@ the key objectives and technologies used in this project.</p>
             <li>1. Perform data cleaning and exploratory data analysis (EDA) on the JOSAA seat allotment data</li>
             <li>2. Create a SQLite database from the cleaned data and perform queries on it.</li>
             <li>3. Develop a website to present the analysis using various charts and tables.</li>
-            
-        </ul>
+         </ul>
 </section>
    
 <section>
@@ -30,8 +29,7 @@ the key objectives and technologies used in this project.</p>
             <li><strong>•data Scrapping :</strong>Selenium</li>
             <li><strong>• Data Cleaning:</strong>NumPy, Pandas </li>
             <li><strong>• Visualisation:</strong>Chart.js </li>
-           
-        </ul>
+           </ul>
 </section>
    
    <section>
@@ -60,10 +58,10 @@ process involves using the NumPy and Pandas libraries to clean and transform the
 required for analysis.</li>
            
             
-        </ul>
+</ul>
 </section>
    
-        <section>
+<section>
         <h2>Data Insights and Analysis</h2>
         <p>The portal offers several sections for in-depth data analysis:</p>
         <ul>
@@ -82,7 +80,7 @@ required for analysis.</li>
 the sections mentioned above.</p>
     </section>
 
-    <section>
+<section>
    <h2>Output Files</h2>
         <p>n the Outputs (images & video) folder, you will find some graph images and a video showcasing 
 the working project.</p>
@@ -117,7 +115,7 @@ the Coding Club, IIT Guwahati.</p>
 
 <section>
   
-        <p>Thank you for visiting the JOSAA Seat Allotment Portal. We hope you find this resource insightful 
+ <p>Thank you for visiting the JOSAA Seat Allotment Portal. We hope you find this resource insightful 
 and useful in your academic and research endeavours.</p>
     </section>
 
