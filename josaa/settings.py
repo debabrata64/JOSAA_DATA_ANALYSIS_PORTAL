@@ -124,11 +124,3 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-<<<<<<< HEAD:JOSAA/settings.py
-## ... recommend to video
-# STATICFILES_DIRS = [
-#     BASE_DIR, "page1/static",
-# ]
-=======
-
->>>>>>> main:josaa/settings.py
