@@ -82,7 +82,7 @@ the sections mentioned above.</p>
 
 <section>
    <h2>Output Files</h2>
-        <p>n the Outputs (images & video) folder, you will find some graph images and a video showcasing 
+        <p>In the Outputs (images & video) folder, you will find some graph images and a video showcasing 
 the working project.</p>
     </section>
    
