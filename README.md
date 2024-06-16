@@ -120,7 +120,7 @@ the Coding Club, IIT Guwahati.</p>
 
 <section>
   
- Thank you for visiting the JoSAA Seat Allotment Portal. We hope you find this resource insightful 
+ Thank you for visiting the JoSAA Data Analysis Portal. We hope you find this resource insightful 
 and useful in your academic and research endeavours.
     </section>
 
